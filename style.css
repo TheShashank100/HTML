@@ -1,0 +1,239 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* Set styles for the header in the main page*/
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  padding-right: 50px;
+}
+
+/* Set styles for the sections in the main page */
+.section {
+  background-color: #008080;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Set styles for the section headings in the main page*/
+h2 {
+  margin-top: 0;
+}
+
+/* Set styles for the links in the main page*/
+a#email {
+  color: white;
+  text-decoration: none;
+}
+
+a.apps {
+  text-decoration: none;
+}
+
+a hr {
+  color: white;
+}
+
+.b1 {
+  text-align: center;
+  background-color: #008080;
+  color: black;
+  border-radius: 25px;
+  width: 400px;
+  height: 200px;
+  font-size: 30px;
+  text-decoration: none; 
+}
+
+.zoom {
+  padding: 25px;
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.whole {
+  display: flex;
+  justify-content: space-between;
+/*   text-decoration: none; */
+}
+
+
+/* quoties */
+.wrapper {
+  width: 95%;
+/*   position: absolute; */
+/*   transform: translate(
+  -50%, -50%); */
+/*   top: 50%; */
+/*   left: 50%; */
+}
+
+.container {
+  width: 100%;
+  background-color: #008080;
+  padding: 50px 40px;
+/*   box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5); */
+  position: relative;
+  text-align: center;
+}
+.container:after {
+  content: "";
+/*   position: absolute; */
+  width: 80%;
+  height: 120%; 
+  z-index: -1;
+  top: -10%;
+  left: 10%;
+}
+.container p {
+  color: #fdd8d8;
+  line-height: 2;
+  font-size: 18px;
+}
+.container h3 {
+  color: #ffffff;
+/*   margin: 20px 0 60px 0; */
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+
+.body {
+  background-color: black;
+  color: white;
+}
+
+#score {
+  font-size: 50px;
+}
+
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  
+}
+
+.leftFlex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+}
+
+#thanos {
+  height: 600px;
+}
+
+
+.characters {
+  background-color: #008080;
+  margin-right: 50px;
+}
+
+.hereosSpaced {
+  display: flex;
+  justify-content: space-around;
+} 
+
+#title {
+  text-align: center;
+}
+
+#img {
+  height: 150px;
+}
+
+#status-bar {
+  width: 50%;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+#status-bar-progress {
+  width: 10 0%;
+  height: 100%;
+  background-color: green;
+}
+
+#decrease-button {
+  margin-top: 10px;
+  background-color: transparent;
+  border-color: black;
+}
+
+
+.boxSize {
+  width: 1440px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #008080;
+  color: white;
+}
+
+.QuoteText {
+   text-align: center;
+   font-size: 25px;
+}
+.author {
+   margin:10px;
+   color: white;
+   text-align: right;
+   font-size: 25px;
+   font-style: italic;
+   font-family: cursive;
+}
+
+.zoom1 {
+  padding: 50px;
+/*   background-color: green; */
+  transition: transform .2s;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.zoom1:hover {
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
+}
+
+.creditsBody {
+  background-color: black;
+  text-decoration: none;
+  font-size: 30px;
+  color: #008080;
+}
+
+
+.homeImg{
+  padding-left: 500px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+#li {
+  text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+
